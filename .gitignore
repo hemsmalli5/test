@@ -1,3 +1,6 @@
+#Ignoring data file (already pushed)
+raw_movies.csv
+
 #Adding .ipynb_checkpoints
 .ipynb_checkpoints
 
