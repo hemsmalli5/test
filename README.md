@@ -14,15 +14,15 @@ The source data has lot of potential with various features. The data comprises m
 2. Analysis specific to one genre, predict if highest budget action movies delivered better revenue?
 
 Steps:
-1.	Use ETL pipeline to cleaning and transforming the data.
-    * a. Encode the columns, split the genres, and clean up categorical feature as required.
+1.	Use ETL pipeline to cleaning and transforming the data:
+    * Encode the columns, split the genres, and clean up categorical feature as required.
 2.	Database connections
-3.	Pre-processing steps
-    * a. Feature scaling
-4.	Create ML model
-    * a. Perform Linear Regression model
-    * b. Perform Random forest model
-    * c. Compare the statistics between the models and identify model with better accuracy
+3.	Pre-processing steps:
+    * Feature scaling
+4.	Create ML model:
+    * Perform Linear Regression model
+    * Perform Random forest model
+    * Compare the statistics between the models and identify model with better accuracy
 5.	Predictions and Conculsions
 
 ## Data Source
