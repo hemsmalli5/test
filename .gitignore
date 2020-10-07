@@ -1,3 +1,6 @@
+# Ignore Resources Folder
+Resources
+
 #Ignoring data file (already pushed)
 raw_movies.csv
 
