@@ -27,5 +27,4 @@ Steps:
 
 ## Data Source
 
-Movie data pulled from:
-https://www.imdb.com/interfaces/
+
