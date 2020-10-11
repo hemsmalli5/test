@@ -25,6 +25,12 @@ Steps:
     * Compare the statistics between the models and identify model with better accuracy
 5.	Predictions and Conculsions
 
+Presentation:
+
+1. Create a dashboard displaying effects of different datasets on ratings.
+
+Mock Storyboard: https://ninjamock.com/s/N37F6Gx
+
 ## Data Source
 
 Movie data pulled from:
