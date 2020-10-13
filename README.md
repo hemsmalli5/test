@@ -25,9 +25,17 @@ Steps:
     * Compare the statistics between the models and identify model with better accuracy
 5.	Predictions and Conculsions
 
+## Data exploration phase:
+
+## Data analysis: 
+
+
+
 Presentation:
 
 1. Create a dashboard displaying effects of different datasets on ratings.
+
+ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
 
 Mock Storyboard: https://ninjamock.com/s/N37F6Gx
 
