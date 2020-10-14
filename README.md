@@ -33,7 +33,11 @@ Through this segment, we explored 4 data sets;
 3. Movie_ratings: tconst,	averageRating,	numVotes
 4. Movie_crew: tconst,	directors,	writers
 
-The tconst being common imbd_id across all data sets that helped with merge, each data set has promising information for analysis. Top picks for project are title, start year (release year), runtime minutes, genres, average ratings, number of votes, and directors.
+The tconst being common imbd_id across all data sets that helped with merge, each data set has promising information for analysis. 
+Inline-style: 
+![Summary](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/ERD.PNG)
+
+Top picks for project are title, start year (release year), runtime minutes, genres, average ratings, number of votes, and directors.
 
 ## Data analysis: 
 1. As part of the ETL steps, all data sets are filetred up on tconst for common values.
