@@ -51,6 +51,20 @@ features on runtime and average rating in movies.
 2. build three models as: linear regression model, logistic regression model, and SVC model.
 3. fit the model with predicted datasets, and use confusion matrix to report its accuracy and model performance. 
 
+## Machine Learning second segment summary:
+
+Short Summary:
+1. Linear regression model  is completed correctly. For linear regression model,to do a loss function to analysis its accuracy for third segment deliverable.
+2. classification model right now has imbalanced datasets problem, so need to take oversampling to re-scale the data. In that way, the model performance is not accuracy. For Classification model, need to use oversampling methdo to deal with imbalance data in third segement deliverable. 
+
+Thire segment deliverable to do list:
+1. use RMSE or R-square to analysis the linear regression model performance.
+2. use SMOTEENN method to deal with the imbalance datasets.
+3. Add random forest decision tree models to re-predict the models
+4. add feature importance 
+5. compared the F-1 score and evaluate the model performance
+6. add writing description for ML model analysis. 
+7. add Logistic Regression and SVC model visulization. 
 
 
 Presentation:
