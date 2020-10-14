@@ -53,13 +53,17 @@ Presentation:
 ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
 
 Mock Storyboard: https://ninjamock.com/s/N37F6Gx
+
    The overall objective is to look into factors affecting ratings
    We are potentially looking at:
+   
       1. Genres on Rating
       2. Director on Rating
       3. Runtime on Rating
+      
    Rating is being utilize as a stand in for popularity. This may allow us to decide which
    films can be used to attract new customers and increase membership.
+   
 ## Data Source
 
 Movie data pulled from:
