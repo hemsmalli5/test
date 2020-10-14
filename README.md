@@ -45,6 +45,13 @@ Top picks for project are title, start year (release year), runtime minutes, gen
 3. movie_data further transformed with MultiLabelBinarizer
 4. execute ML models on the finalised data frame.
 
+## Machine Learning analysis: 
+features on runtime and average rating in movies.
+1. use Supervised Learning to analysis and predict. 
+2. build three models as: linear regression model, logistic regression model, and SVC model.
+3. fit the model with predicted datasets, and use confusion matrix to report its accuracy and model performance. 
+
+
 
 Presentation:
 
