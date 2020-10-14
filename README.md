@@ -10,9 +10,14 @@ testing master and individual branches
 
 The source data has lot of potential with various features. The data comprises movie titles, imdb ids, rating, genres, release years. Through this project we plan to focus on following business predictions/questions:
 
+<<<<<<< HEAD
 1. Predict popular movie genres within certain release period and intricate genres relationships based on release years.
 2. Predict if movie runtime affects ratings (analysis discrepancies on votes
 2. If higher ratings are driven by Papular directors?
+=======
+1. Predict popular movie ratings and/or genres within certain release period and intricate genres relationships based on investment and release years.
+2. Analysis specific to one genre, predict if highest budget action movies delivered better revenue?
+>>>>>>> 4d20aba2db0e8fdb4aff8b2ef4ed0d363671fca5
 
 Steps:
 1.	Use ETL pipeline to cleaning and transforming the data:
@@ -26,6 +31,7 @@ Steps:
     * Compare the statistics between the models and identify model with better accuracy
 5.	Predictions and Conculsions
 
+<<<<<<< HEAD
 ## Data exploration phase:
 Through this segment, we explored 4 data sets;
 1. Movie_akas: has information tconst,	ordering,	title,	region,	language,	types,	attributes,	isOriginalTitle
@@ -89,3 +95,9 @@ Mock Storyboard: https://ninjamock.com/s/N37F6Gx
 
 Movie data pulled from:
 https://www.imdb.com/interfaces/
+=======
+## Data Source
+
+Movie data pulled from:
+https://www.imdb.com/interfaces/
+>>>>>>> 4d20aba2db0e8fdb4aff8b2ef4ed0d363671fca5
