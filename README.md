@@ -57,7 +57,7 @@ Short Summary:
 1. Linear regression model  is completed correctly. For linear regression model,to do a loss function to analysis its accuracy for third segment deliverable.
 2. classification model right now has imbalanced datasets problem, so need to take oversampling to re-scale the data. In that way, the model performance is not accuracy. For Classification model, need to use oversampling methdo to deal with imbalance data in third segement deliverable. 
 
-Thire segment deliverable to do list:
+Third segment deliverable to do list:
 1. use RMSE or R-square to analysis the linear regression model performance.
 2. use SMOTEENN method to deal with the imbalance datasets.
 3. Add random forest decision tree models to re-predict the models
