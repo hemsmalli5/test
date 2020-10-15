@@ -77,7 +77,7 @@ Presentation:
 
 ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
 
-Mock Storyboard: https://ninjamock.com/s/N37F6Gx
+Mock Storyboard: https://ninjamock.com/s/N37F6Gx (note: please activate comments to see explanations within the storyboard)
 
    The overall objective is to look into factors affecting ratings
    We are potentially looking at:
