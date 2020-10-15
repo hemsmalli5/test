@@ -1,4 +1,5 @@
 # Movie Ratings and Genres
+
 Perform analysis on movie ratings and genres
 
 ## Reason for Project
@@ -12,26 +13,29 @@ The source data has lot of potential with various features. The data comprises m
 
 1. Predict popular movie genres within certain release period and intricate genres relationships based on release years.
 2. Predict if movie runtime affects ratings (analysis discrepancies on votes
-2. If higher ratings are driven by Papular directors?
+2. If higher ratings are driven by popular directors?
 
 Steps:
-1.	Use ETL pipeline to cleaning and transforming the data:
+1.  Use ETL pipeline to cleaning and transforming the data:
     * Encode the columns, split the genres, and clean up categorical feature as required.
-2.	Database connections
-3.	Pre-processing steps:
+2.  Database connections
+3.  Pre-processing steps:
     * Feature scaling
-4.	Create ML model:
+4.  Create ML model:
     * Perform Linear Regression model
     * Perform Random forest model
     * Compare the statistics between the models and identify model with better accuracy
-5.	Predictions and Conculsions
+5.  Predictions and Conclusions
 
-## Data exploration phase:
+## Data Exploration Phase:
+
+Movie data pulled from: https://www.imdb.com/interfaces/
+
 Through this segment, we explored 4 data sets;
-1. Movie_akas: has information tconst,	ordering,	title,	region,	language,	types,	attributes,	isOriginalTitle
-2. Movie_basics: tconst,	titleType,	primaryTitle,	originalTitle,	isAdult,	startYear,	endYear,	runtimeMinutes,	genres
-3. Movie_ratings: tconst,	averageRating,	numVotes
-4. Movie_crew: tconst,	directors,	writers
+1. Movie_akas: has information tconst, ordering, title, region, language, types, attributes, isOriginalTitle
+2. Movie_basics: tconst, titleType, primaryTitle, originalTitle, isAdult, startYear, endYear, runtimeMinutes, genres
+3. Movie_ratings: tconst, averageRating, numVotes
+4. Movie_crew: tconst, directors, writers
 
 The tconst being common imbd_id across all data sets that helped with merge, each data set has promising information for analysis. 
 Inline-style: 
@@ -39,23 +43,25 @@ Inline-style:
 
 Top picks for project are title, start year (release year), runtime minutes, genres, average ratings, number of votes, and directors.
 
-## Data analysis: 
-1. As part of the ETL steps, all data sets are filetred up on tconst for common values.
-2. Connections made to local Postgres server and updated final version of tables into moview_analysis_db database. All tables are left joined up on tconst to produce common table movie_data_sql (movie_data in pandas data frame)
-3. movie_data further transformed with MultiLabelBinarizer
-4. execute ML models on the finalised data frame.
+## Data Analysis & Cleaning: 
 
-## Machine Learning analysis: 
+1.	Several pre data cleaning steps were completed on a merged dataframe, that contained the 4 above mentioned files, in Jupyter Notebook. These cleaning steps included dropping all rows that were not movies (TV shows, videogames, etc…), converting the data type for some columns, dropping movies that were older than 1950, dropping movies that had NaN in the runtime and genres columns. A final list of unique tconst values was extracted from the cleaned dataframe and this list was used to filter each individual data file, so they each contained only the movie rows we needed, before the four files were loaded into the DB and merged.
+2. A connection was made to our local Postgres server and the clean individual files were updated and the tables were merged into a single movie_analysis_db database. All tables are left joined on tconst to produce common table movie_data_sql (movie_data in pandas data frame)
+3. Additional data cleaning steps were carried out on the final dataframe, which included encoding certain columns using MultiLabelBinarizer, dropping unneeded columns after encoding, and renaming column names.
+4. All machine learning modals will be execute on this final data frame.
+
+## Machine Learning Analysis: 
+
 features on runtime and average rating in movies.
-1. use Supervised Learning to analysis and predict. 
-2. build three models as: linear regression model, logistic regression model, and SVC model.
-3. fit the model with predicted datasets, and use confusion matrix to report its accuracy and model performance. 
+1. Use Supervised Learning to analysis and predict. 
+2. Build three models as: linear regression model, logistic regression model, and SVC model.
+3. Fit the model with predicted datasets, and use confusion matrix to report its accuracy and model performance. 
 
-## Machine Learning second segment summary:
+## Machine Learning Second Segment Summary:
 
 Short Summary:
-1. Linear regression model  is completed correctly. For linear regression model,to do a loss function to analysis its accuracy for third segment deliverable.
-2. classification model right now has imbalanced datasets problem, so need to take oversampling to re-scale the data. In that way, the model performance is not accuracy. For Classification model, need to use oversampling methdo to deal with imbalance data in third segement deliverable. 
+1. Linear regression model is completed correctly. For the linear regression model, we did a loss function to analyze its accuracy for the third segment deliverable.
+2. The Classification model has imbalanced datasets problem, so we need to take oversampling to re-scale the data. In that way, the model performance is not accuracy. For Classification model, need to use oversampling method to deal with imbalance data in third segment deliverable. 
 
 Third segment deliverable to do list:
 1. use RMSE or R-square to analysis the linear regression model performance.
@@ -64,11 +70,9 @@ Third segment deliverable to do list:
 4. add feature importance 
 5. compared the F-1 score and evaluate the model performance
 6. add writing description for ML model analysis. 
-7. add Logistic Regression and SVC model visulization. 
-
+7. add Logistic Regression and SVC model visualization. 
 
 Presentation:
-
 1. Create a dashboard displaying effects of different datasets on ratings.
 
 ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
@@ -84,8 +88,4 @@ Mock Storyboard: https://ninjamock.com/s/N37F6Gx
       
    Rating is being utilize as a stand in for popularity. This may allow us to decide which
    films can be used to attract new customers and increase membership.
-   
-## Data Source
 
-Movie data pulled from:
-https://www.imdb.com/interfaces/
