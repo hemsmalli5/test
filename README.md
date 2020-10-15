@@ -88,4 +88,9 @@ Mock Storyboard: https://ninjamock.com/s/N37F6Gx (note: please activate comments
       
    Rating is being utilize as a stand in for popularity. This may allow us to decide which
    films can be used to attract new customers and increase membership.
-
+   
+   To start off we'll splash (do storyboard artists speak like this?) the first page with a background on the factors that we will be looking at to affect ratings. We will also
+   cover the route we plan to take the ML models to get a sense of a future movie's ratings [possibly]. The presentation will also show off a sample of the data we will be using. There will finally be spcific pages for the factors that we look at that affect ratings. In our conclusion we will look at what we learned from the process, and how we can improve our ML and what we can potentially use the new information for.
+   
+   The dashboard is expected to be built utilizing the Tableau software. It is expected that the dashboard will be created to be displayed on a HTML page.
+   
