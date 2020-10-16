@@ -34,12 +34,10 @@ Steps:
 
 ## Team & Communications:
 Team:
+
 PM/DB - Hema Mallisetty
-
 ETL - Sam Erdman
-
 Dashboard - Aaron Kitamura
-
 ML - Angel Zhang
 
 Communications:
