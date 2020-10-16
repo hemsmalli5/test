@@ -99,3 +99,7 @@ Mock Storyboard: https://ninjamock.com/s/N37F6Gx (note: please activate comments
    
    The dashboard is expected to be built utilizing the Tableau software. It is expected that the dashboard will be created to be displayed on a HTML page.
    
+   Below are sample slides:
+   
+   ![Slide 1](Ninjamock/Sheet 1.PNG)
+   
