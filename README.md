@@ -101,5 +101,5 @@ Mock Storyboard: https://ninjamock.com/s/N37F6Gx (note: please activate comments
    
    Below are sample slides:
    
-   ![Slide 1](Ninjamock/Sheet 1.PNG)
+   ![Slide 1](/Ninjamock/Sheet 1.PNG)
    
