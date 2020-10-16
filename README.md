@@ -36,9 +36,13 @@ Steps:
 Team:
 
 PM/DB - Hema Mallisetty
+
 ETL - Sam Erdman
+
 Dashboard - Aaron Kitamura
+
 ML - Angel Zhang
+
 
 Communications:
 1. Slack Channel
