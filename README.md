@@ -32,6 +32,19 @@ Steps:
     * Compare the statistics between the models and identify model with better accuracy
 5.  Predictions and Conclusions
 
+## Team & Communications:
+Team:
+PM/DB - Hema Mallisetty
+ETL - Sam Erdman
+Dashboard - Aaron Kitamura
+ML - Angel Zhang
+
+Communications:
+1. Slack Channel
+2. Google docs & drive
+3. Git-hub collaborations
+4. Meeting Cadence: Class sessions (Tues & Thus) and additional Zoom session on (Sat/Sun)
+
 ## Data Exploration Phase:
 
 Movie data pulled from: https://www.imdb.com/interfaces/
