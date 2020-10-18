@@ -96,6 +96,11 @@ Third segment deliverable to do list:
 7. add Logistic Regression and SVC model visualization. 
 
 Presentation:
+
+Tableau Dashboard
+
+https://public.tableau.com/views/BootcampFinalPresentation/Presentation?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
+
 1. Create a dashboard displaying effects of different datasets on ratings.
 
 ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
