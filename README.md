@@ -101,9 +101,9 @@ Tableau Dashboard
 
 https://public.tableau.com/views/BootcampFinalPresentation/Presentation?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
 
-![Example: Intro Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Presentation/Intro_slide.PNG)
+![Example: Intro Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Tableau_Dash/Intro_slide.PNG)
 
-![Example: Genres Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Presentation/TopGenres_slide.PNG)
+![Example: Genres Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Tableau_Dash/TopGenres_slide.PNG)
 
 
 
