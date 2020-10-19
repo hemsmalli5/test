@@ -101,6 +101,12 @@ Tableau Dashboard
 
 https://public.tableau.com/views/BootcampFinalPresentation/Presentation?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
 
+![Example: Intro Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Presentation/Intro_slide.PNG)
+
+![Example: Genres Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Presentation/TopGenres_slide.PNG)
+
+
+
 1. Create a dashboard displaying effects of different datasets on ratings.
 
 ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
