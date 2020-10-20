@@ -85,7 +85,7 @@ features on runtime and average rating in movies.
 Short Summary:
 
 
-## In-depth descriptions of ML process:
+## 2nd segment in-depth descriptions of ML process:
 
 1. How to split into training and testing dataset in Machine Learning? 
 
@@ -99,13 +99,16 @@ Short Summary:
 
 2. How much of data is in each group? 
       
-         We used X.shape method to see how much of data is in each group. As a result, there are 73890 data in both X and y dataset. 
+         We used X.shape method to see how much of data is in each group. As a result, there are 59112 data in both X training dataset 
+         and y training dataset. In the x testing datasets and y testing dataset, there are 14778 data there. 
          
          X and y has same size of data in Machine Learning model. 
          
 
 3. Why choose the model of logistic regression, classic decision tree and random forest tree as Machine Learning models? 
 
+         Since we mainly analyzed the categorical variable in this project and it is discrete variable, we choose to use classification mudel
+         to do the machine learning model. 
       
 
 4. What was the decision-making process around feature selection? 
@@ -121,6 +124,37 @@ Short Summary:
          In term of Generes Feartures, we use One - hot encoding method to covert text infomation to numerics information.
          
 
+
+## 3rd segment deliverable:
+
+1. Description of data preprocessing: 
+      
+      In order to analysis generes, we used one-hot encoding technical algorithm to split the generes into numerical variables. 
+      We split the average rating into two main groups: high and low. Afterwards, the data is splitted into training and testing datasets by 2/8 ratios. 
+      Then, we scale the datasets ad we want all training sets as well  as testing set are in standard scale. 
+      
+2.  Description of feature engineering and the feature selection, including their decisionmaking process.
+
+      same with 2nd segment, initially we plan to test the ML model with encoding "director" column to see the difference in accuracy.
+         However, during the process, we found that encoding the Directors column will create over 40, 511 new columns, 
+         which takes an extremely long time to complete. 
+         If the Directors column is encoded (40, 511 columns) it will take an extremely long time to split. 
+         If the Director column is not encoded, it will need to be dropped as you cannot standardize non-numerical values.
+         After long team group discussion, we decided to drop "Director" features, 
+         instead, to use "generes" features to figure out customers preference. 
+         In term of Generes Feartures, we use One - hot encoding method to covert text infomation to numerics information.
+         
+3. Description of how data was split into training and testing sets. 
+
+         Same with 2nd segement, As we work with datasets, a machine learning algorithm works in two stages. In thsi analysis, 
+    
+         we chose to split the data around 20% - 80% between testing and training stages. Under supervised learning, we split a dataset 
+         
+         into a training data and test data in ML. The code test_size = 0.2 suggests that the test data should be 20% of the datasets
+         
+         and the rest should be training data. 
+         
+         
 Presentation:
 
 Tableau Dashboard
