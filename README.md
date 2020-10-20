@@ -184,8 +184,9 @@ Short Summary:
          
          random forest model regression disadvantages: 
          
-         1. Complexity: Random Forest creates a lot of trees (unlike only one tree in case of decision tree) and combines their outputs. This algorithm                
-         requires much more computational power and resources.
+         1. Complexity: Random Forest creates a lot of trees (unlike only one tree in case of decision tree) and combines their outputs. 
+         
+         This algorithm requires much more computational power and resources.
 
          2. Longer Training Period: Random Forest require much more time to train as compared to decision trees as it generates a lot of trees 
          
@@ -194,8 +195,11 @@ Short Summary:
          
 5. Description of current accuracy score 
 
-         Overall, we got the highest accuracy scores as 71.2% in random forest model. In the logistic regression model, the accuracy does not looks well as it only have 54%              
-         accuracy. The classic decision trees has better accuracy score than traditional logistical regression models with 69.1% accuracy scores.
+         Overall, we got the highest accuracy scores as 71.2% in random forest model. In the logistic regression model, the accuracy does not 
+         
+         looks well as it only have 54% accuracy. 
+         
+         The classic decision trees has better accuracy score than traditional logistical regression models with 69.1% accuracy scores.
 
 
         
