@@ -99,13 +99,20 @@ Third segment deliverable to do list:
 
 1. How to split into training and testing dataset in Machine Learning? 
 
+         As we work with datasets, a machine learning algorithm works in two stages. In thsi analysis, we chose to 
+         
+         split the data around 20% - 80% between testing and training stages. Under supervised learning, we split a dataset into
+         
+         a training data and test data in ML. The code test_size = 0.2 suggests that the test data should be 20% of the datasets and 
+         
+         the rest should be training data. 
+
 2. How much of data is in each group? 
 
 3. Why choose the model of logistic regression, linear regression and random forest tree as Machine Learning models? 
 
 4. What was the decision-making process around feature selection? 
 
-         
 
          Initially we plan to test the ML model with encoding "director" column to see the difference in accuracy.
          However, during the process, we found that encoding the Directors column will create over 40, 511 new columns, 
