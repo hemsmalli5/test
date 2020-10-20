@@ -153,6 +153,44 @@ Short Summary:
          into a training data and test data in ML. The code test_size = 0.2 suggests that the test data should be 20% of the datasets
          
          and the rest should be training data. 
+        
+4.  Explanation of model choice, including limitations and benefits.
+
+         Since we mainly analysis the customer perference on movies'generes, we use classficatin models. 
+         
+         We choose over three machine learning models -- logistic regression, classic decision trees and random forest trees models. 
+         
+         a).
+         logistic regression benefits: logistic regression has many benefits, as it is easier to implement, interpret, and very efficient to train, 
+         
+         moreover, the logistic regression model is less inclined to over-fitting but it can overfit in high demensional datasets. since we have 19 
+         
+         generes and it is high demensional datasets, we choose to use logistical regression model. 
+         
+         logistic regression limitations: The major limitation of Logistic Regression is the assumption of linearity between the dependent variable 
+         
+         and the independent variables. it can only be used to predict discrete functions. Hence, the dependent variable of Logistic Regression is 
+         
+         bound to the discrete number set.
+         
+         b). 
+         
+         random forest model regression advantages: 
+         
+         it creates as many as trees on the subset of the data and combines the output of all the trees. In 
+         
+         this ways. it reduces overfitting problem in decision trees and also reduces the variance and therefore imporves the accuracy. 
+         
+         
+         random forest model regression disadvantages: 
+         
+         1. Complexity: Random Forest creates a lot of trees (unlike only one tree in case of decision tree) and combines their outputs. This algorithm                
+         requires much more computational power and resources.
+
+         2. Longer Training Period: Random Forest require much more time to train as compared to decision trees as it generates a lot of trees 
+         
+         (instead of one tree in case of decision tree) and makes decision on the majority of votes.
+        
          
          
 Presentation:
