@@ -95,6 +95,18 @@ Third segment deliverable to do list:
 6. add writing description for ML model analysis. 
 7. add Logistic Regression and SVC model visualization. 
 
+## In-depth descriptions of ML process:
+
+1. How to split into training and testing dataset in Machine Learning? 
+
+2. How much of data is in each group? 
+
+3. Why choose the model of logistic regression, linear regression and random forest tree as Machine Learning models? 
+
+4. What was the decision-making process around feature selection? 
+
+5. SVC model overlapping and how to improve it? 
+
 Presentation:
 
 Tableau Dashboard
