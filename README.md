@@ -190,6 +190,14 @@ Short Summary:
          2. Longer Training Period: Random Forest require much more time to train as compared to decision trees as it generates a lot of trees 
          
          (instead of one tree in case of decision tree) and makes decision on the majority of votes.
+         
+         
+5. Description of current accuracy score 
+
+         Overall, we got the highest accuracy scores as 71.2% in random forest model. In the logistic regression model, the accuracy does not looks well as it only have 54%              
+         accuracy. The classic decision trees has better accuracy score than traditional logistical regression models with 69.1% accuracy scores.
+
+
         
          
          
