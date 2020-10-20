@@ -77,23 +77,13 @@ Top picks for project are title, start year (release year), runtime minutes, gen
 
 features on runtime and average rating in movies.
 1. Use Supervised Learning to analysis and predict. 
-2. Build three models as: linear regression model, logistic regression model, and SVC model.
+2. Build three models as: logistic regression model, classic decision tree and random forest tree.
 3. Fit the model with predicted datasets, and use confusion matrix to report its accuracy and model performance. 
 
 ## Machine Learning Second Segment Summary:
 
 Short Summary:
-1. Linear regression model is completed correctly. For the linear regression model, we did a loss function to analyze its accuracy for the third segment deliverable.
-2. The Classification model has imbalanced datasets problem, so we need to take oversampling to re-scale the data. In that way, the model performance is not accuracy. For Classification model, need to use oversampling method to deal with imbalance data in third segment deliverable. 
 
-Third segment deliverable to do list:
-1. use RMSE or R-square to analysis the linear regression model performance.
-2. use SMOTEENN method to deal with the imbalance datasets.
-3. Add random forest decision tree models to re-predict the models
-4. add feature importance 
-5. compared the F-1 score and evaluate the model performance
-6. add writing description for ML model analysis. 
-7. add Logistic Regression and SVC model visualization. 
 
 ## In-depth descriptions of ML process:
 
@@ -108,8 +98,15 @@ Third segment deliverable to do list:
          the rest should be training data. 
 
 2. How much of data is in each group? 
+      
+         We used X.shape method to see how much of data is in each group. As a result, there are 73890 data in both X and y dataset. 
+         
+         X and y has same size of data in Machine Learning model. 
+         
 
-3. Why choose the model of logistic regression, linear regression and random forest tree as Machine Learning models? 
+3. Why choose the model of logistic regression, classic decision tree and random forest tree as Machine Learning models? 
+
+      
 
 4. What was the decision-making process around feature selection? 
 
@@ -123,7 +120,6 @@ Third segment deliverable to do list:
          instead, to use "generes" features to figure out customers preference. 
          In term of Generes Feartures, we use One - hot encoding method to covert text infomation to numerics information.
          
-5. SVC model overlapping and how to improve it? 
 
 Presentation:
 
