@@ -130,8 +130,9 @@ Short Summary:
 1. Description of data preprocessing: 
       
       In order to analysis generes, we used one-hot encoding technical algorithm to split the generes into numerical variables. 
-      We split the average rating into two main groups: high and low. Afterwards, the data is splitted into training and testing datasets by 2/8 ratios. 
-      Then, we scale the datasets ad we want all training sets as well  as testing set are in standard scale. 
+      We split the average rating into two main groups: high and low. Afterwards, the data is splitted into training and testing 
+    
+      datasets by 2/8 ratios.Then, we scale the datasets ad we want all training sets as well  as testing set are in standard scale. 
       
 2.  Description of feature engineering and the feature selection, including their decisionmaking process.
 
@@ -161,17 +162,17 @@ Short Summary:
          We choose over three machine learning models -- logistic regression, classic decision trees and random forest trees models. 
          
          a).
-         logistic regression benefits: logistic regression has many benefits, as it is easier to implement, interpret, and very efficient to train, 
+         logistic regression benefits: logistic regression has many benefits, as it is easier to implement, interpret, and very efficient 
          
-         moreover, the logistic regression model is less inclined to over-fitting but it can overfit in high demensional datasets. since we have 19 
+         to train, moreover, the logistic regression model is less inclined to over-fitting but it can overfit in high demensional datasets. 
          
-         generes and it is high demensional datasets, we choose to use logistical regression model. 
+         since we have 19 generes and it is high demensional datasets, we choose to use logistical regression model. 
          
-         logistic regression limitations: The major limitation of Logistic Regression is the assumption of linearity between the dependent variable 
+         logistic regression limitations: The major limitation of Logistic Regression is the assumption of linearity between the dependent 
          
-         and the independent variables. it can only be used to predict discrete functions. Hence, the dependent variable of Logistic Regression is 
+         variable and the independent variables. it can only be used to predict discrete functions. Hence, the dependent variable of Logistic 
          
-         bound to the discrete number set.
+         Regression is bound to the discrete number set.
          
          b). 
          
