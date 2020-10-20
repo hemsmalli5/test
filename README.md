@@ -105,7 +105,14 @@ Third segment deliverable to do list:
 
 4. What was the decision-making process around feature selection? 
 
-         Initially we plan to test the ML model with encoding "director" column to see the difference in accuracy.However, during the process, we found that encoding the Directors column will create over 40, 511 new columns, which takes an extremely long time to complete. If the Directors column is encoded (40, 511 columns) it will take an extremely long time to split. If the Director column is not encoded, it will need to be dropped as you cannot standardize non-numerical values.After long team group discussion, we decided to drop "Director" features, in stead, to use "generes" features to figure out customers preference. In term of Generes Feartures, we use One - hot encoding method to covert text infomation to numerics information.
+         
+
+         Initially we plan to test the ML model with encoding "director" column to see the difference in accuracy.
+         However, during the process, we found that encoding the Directors column will create over 40, 511 new columns, which takes an extremely long time to complete. 
+         If the Directors column is encoded (40, 511 columns) it will take an extremely long time to split. 
+         If the Director column is not encoded, it will need to be dropped as you cannot standardize non-numerical values.
+         After long team group discussion, we decided to drop "Director" features, instead, to use "generes" features to figure out customers preference. 
+         In term of Generes Feartures, we use One - hot encoding method to covert text infomation to numerics information.
          
 5. SVC model overlapping and how to improve it? 
 
