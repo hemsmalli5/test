@@ -179,7 +179,7 @@ Features on moview runtime and top genres:
          Overall, we got the highest accuracy scores as 71.2% in random forest model. In the logistic regression model, the accuracy does not 
          looks well as it only have 54% accuracy. The classic decision trees has better accuracy score than traditional logistical regression models with 69.1% accuracy scores.
 
-         
+![](Resources/dtree_8)
 ## Tableau Storyboard
 
 https://public.tableau.com/views/BootcampFinalPresentation/Presentation?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
