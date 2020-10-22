@@ -188,7 +188,8 @@ https://public.tableau.com/views/BootcampFinalPresentation/Presentation?:languag
 
 ![Example: Genres Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Tableau_Dash/TopGenres_slide.PNG)
 
-
+## Final Project Presentation:
+https://drive.google.com/file/d/1nsJMBpqa6V8YJZg_LrTJbPzs7ZjpVSQS/view?usp=sharing
 
 1. Create a dashboard displaying effects of different datasets on ratings.
 
