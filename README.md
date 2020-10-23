@@ -182,7 +182,7 @@ Features on moview runtime and top genres:
 ![](FinalProject/dtree_8.PNG)
 ## Tableau Storyboard
 
-https://public.tableau.com/shared/4P6TRCBDJ?:display_count=y&:origin=viz_share_link
+https://public.tableau.com/views/BootcampFinalPresentation/MovieGenrePreferences?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
 
 ![Example: Intro Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Tableau_Dash/Intro_slide.PNG)
 
