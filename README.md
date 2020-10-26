@@ -1,19 +1,19 @@
 # Movie Ratings and Genres
 
-Perform analysis on top customer preffered genres based on ratings.
+Perform analysis on movie ratings and thier genres.
 
 Communication Tools: Slack, Zoom Meetings
 
-Collaboration: Google Drive/Colab, Github, 
+Collaboration: Google Drive/Colab, Github
 
 
 ## Reason for Project
 
-COVID situations and mandatory stay at home requirements exponentially put high demand on streaming platforms. If there is a way to predict past movie ratings and genre trends over a period of duration, it could be one of the good sources to provide user-based recommendations relevant to years on streaming platforms. 
+With the current impact of COVID-19 and sheltering in place requirements, movie streaming platforms have experienced an exponential increase in usage. If there is a way to predict movie popularity and genre trends, it could allow movie steaming platforms to select potentially more popular movies and increase their viewer counts even more.
 
 ## Project Plan/Expectations
 
-The source data has lot of potential with various features. The data comprises movie titles, imdb ids, rating, genres, release years. Through this project we plan to focus on following business predictions/questions:
+The source data has a lot of potential with various features. The data is comprised of movie titles, imdb ids, rating, genres, release years. Through this project we plan to focus on the following business predictions/questions:
 
 1. Predict popular movie genres within certain release period and intricate genres relationships based on release years.
 2. Predict if movie runtime affects ratings (analysis discrepancies on votes
@@ -35,13 +35,9 @@ Steps:
 Team:
 
 PM/DB - Hema Mallisetty
-
 ETL - Sam Erdman
-
 Dashboard - Aaron Kitamura
-
 ML - Angel Zhang
-
 
 Communications:
 1. Slack Channel
@@ -74,8 +70,8 @@ Top picks for project are title, start year (release year), runtime minutes, gen
 
 ## Machine Learning Analysis: 
 
-Features on moview runtime and top genres:
-1. Use Supervised Learning to analysis and predict. 
+Features on movie runtime and top genres:
+1. Use Supervised Learning to analyze and predict. 
 2. Build three models as: logistic regression model, classic decision tree, and random forest tree.
 3. Fit the model with predicted datasets, and use confusion matrix to report model accuracy and performance. 
 
@@ -180,6 +176,7 @@ Features on moview runtime and top genres:
          looks well as it only have 54% accuracy. The classic decision trees has better accuracy score than traditional logistical regression models with 69.1% accuracy scores.
 
 ![](FinalProject/dtree_8.PNG)
+
 ## Tableau Storyboard
 
 https://public.tableau.com/views/BootcampFinalPresentation/MovieGenrePreferences?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
@@ -191,32 +188,28 @@ https://public.tableau.com/views/BootcampFinalPresentation/MovieGenrePreferences
 ## Final Project Presentation:
 https://drive.google.com/file/d/1n_0op18KnhYyl2f119nW3ItnpJAJXs-L/view?usp=sharing
 
-1. Create a dashboard displaying effects of different datasets on ratings.
+## Story Board
+
+Create a dashboard displaying effects of different datasets on ratings:
 
 ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
 
 Mock Storyboard: https://ninjamock.com/s/N37F6Gx (note: please activate comments to see explanations within the storyboard)
 
-   The overall objective is to look into factors affecting ratings
-   We are potentially looking at:
+The overall objective is to look into factors affecting ratings. We are potentially looking at:
    
       1. Genres on Rating
       2. Director on Rating
       3. Runtime on Rating
       
-   Rating is being utilize as a stand in for popularity. This may allow us to decide which
-   films can be used to attract new customers and increase membership.
+Moive ratings will be used to reflect popularity. This may allow us to decide which films can be used to attract new customers and increase membership.
    
-   To start off we'll splash (do storyboard artists speak like this?) the first page with a background on the factors that we will be looking at to affect ratings. We will also
-   cover the route we plan to take the ML models to get a sense of a future movie's ratings [possibly]. The presentation will also show off a sample of the data we will be using. There will finally be spcific pages for the factors that we look at that affect ratings. In our conclusion we will look at what we learned from the process, and how we can improve our ML and what we can potentially use the new information for.
+The first page will show the factors that we will be focusing on (ratings and genres). We will also discuss our Machine Learning models, which will hopefully be able to predict a future movie's popularity. The presentation will also display a sample of the data we will be using. Finally, there will be specific pages for genres and ratings and we will look at how they impact one another. In our conclusion we will look at what we learned from the process, and how we can improve our Machine Learning models, and what we can potentially use the new information for.
    
-   The dashboard is expected to be built utilizing the Tableau software. It is expected that the dashboard will be created to be displayed on a HTML page.
-   
-   Below are sample slides:
+The dashboard will be built using Tableau. Below are sample slides:
    
    ![Slide 1](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Ninjamock/Sheet_%201.PNG)
    
    ![Slide 2](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Ninjamock/Sheet_2.PNG)
    
    ![Slide 3](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Ninjamock/Sheet_3.PNG)
-   
