@@ -32,12 +32,12 @@ Steps:
 5.  Predictions and Conclusions
 
 ## Team & Communications:
-Team:
 
-PM/DB - Hema Mallisetty
-ETL - Sam Erdman
-Dashboard - Aaron Kitamura
-ML - Angel Zhang
+Team:
+* PM/DB - Hema Mallisetty 
+* ETL - Sam Erdman 
+* Dashboard - Aaron Kitamura 
+* ML - Angel Zhang 
 
 Communications:
 1. Slack Channel
