@@ -56,7 +56,9 @@ Through this segment, we explored 4 data sets;
 4. Movie_crew: tconst, directors, writers
 
 The tconst being common imbd_id across all data sets that helped with merge, each data set has promising information for analysis. 
- 
+
+ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
+
 ![Summary](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/ERD.PNG)
 
 Top picks for project are title, start year (release year), runtime minutes, genres, average ratings, number of votes, and directors.
@@ -186,13 +188,12 @@ https://public.tableau.com/views/BootcampFinalPresentation/MovieGenrePreferences
 ![Example: Genres Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Tableau_Dash/TopGenres_slide.PNG)
 
 ## Final Project Presentation:
+
 https://drive.google.com/file/d/1n_0op18KnhYyl2f119nW3ItnpJAJXs-L/view?usp=sharing
 
-## Story Board
+## Mock Storyboard
 
 Create a dashboard displaying effects of different datasets on ratings:
-
-ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
 
 Mock Storyboard: https://ninjamock.com/s/N37F6Gx (note: please activate comments to see explanations within the storyboard)
 
