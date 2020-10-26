@@ -186,11 +186,13 @@ Features on movie runtime and top genres:
          Overall, we got the highest accuracy scores as 71.2% in random forest model. In the logistic regression model, the accuracy does not 
          looks well as it only have 54% accuracy. The classic decision trees has better accuracy score than traditional logistical regression models with 69.1% accuracy scores.
          
-![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/dtree_8.png)
+
 ![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/rf_5trees.png)
 
 ## 4th Segment Deliverable
 ### Logistic Regression Model
+Logistic Regression Classification Report:
+![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/Logistic%20Regression%20Tress.png)
 
 Benefits: 
 Easy to implement, interpret, and very efficient to train.
@@ -202,7 +204,14 @@ Can only be used to predict discrete functions. Hence, the dependent variable of
 ### Classic Decision Trees
 Accuracy for classic decision tree is 70.56%, but lack of enough subtrees/nodes to do the machine learning modeling.
 
+![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/dtree_8.png)
+
 ### Random Forest Trees
+
+Random Forest Trees Classification Report
+![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/RandomForest%20Score.png)
+
+![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/RandomForest%20Trees.png)
 
 Advantages: 
 Creates as many as trees on the subset of the data and combines the output of all the trees. 
