@@ -55,7 +55,7 @@ The tconst value (imbd_id) is the common primary key across all data sets that w
 
 ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
 
-![Summary](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/ERD.PNG)
+![Summary](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part1_ETL_DB/ERD.PNG)
 
 ## Data Analysis & Cleaning: 
 
@@ -170,41 +170,20 @@ Features on movie runtime and top genres:
 
          Overall, we got the highest accuracy scores as 71.2% in random forest model. In the logistic regression model, the accuracy does not 
          looks well as it only have 54% accuracy. The classic decision trees has better accuracy score than traditional logistical regression models with 69.1% accuracy scores.
-
-![](FinalProject/dtree_8.PNG)
+         
+![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/dtree_8.png)
+![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/rf_5trees.png)
 
 ## Tableau Storyboard
 
 https://public.tableau.com/views/BootcampFinalPresentation/MovieGenrePreferences?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
 
-![Example: Intro Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Tableau_Dash/Intro_slide.PNG)
+![Example: Intro Slide](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Tableau_Dash/Intro_slide.PNG)
 
-![Example: Genres Slide](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Tableau_Dash/TopGenres_slide.PNG)
+![Example: Genres Slide](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Tableau_Dash/TopGenres_slide.PNG)
+
 
 ## Final Project Presentation:
 
 https://drive.google.com/file/d/1n_0op18KnhYyl2f119nW3ItnpJAJXs-L/view?usp=sharing
 
-## Mock Storyboard
-
-Create a dashboard displaying effects of different datasets on ratings:
-
-Mock Storyboard: https://ninjamock.com/s/N37F6Gx (note: please activate comments to see explanations within the storyboard)
-
-The overall objective is to look into factors affecting ratings. We are potentially looking at:
-   
-      1. Genres on Rating
-      2. Director on Rating
-      3. Runtime on Rating
-      
-Moive ratings will be used to reflect popularity. This may allow us to decide which films can be used to attract new customers and increase membership.
-   
-The first page will show the factors that we will be focusing on (ratings and genres). We will also discuss our Machine Learning models, which will hopefully be able to predict a future movie's popularity. The presentation will also display a sample of the data we will be using. Finally, there will be specific pages for genres and ratings and we will look at how they impact one another. In our conclusion we will look at what we learned from the process, and how we can improve our Machine Learning models, and what we can potentially use the new information for.
-   
-The dashboard will be built using Tableau. Below are sample slides:
-   
-   ![Slide 1](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Ninjamock/Sheet_%201.PNG)
-   
-   ![Slide 2](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Ninjamock/Sheet_2.PNG)
-   
-   ![Slide 3](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/Ninjamock/Sheet_3.PNG)
