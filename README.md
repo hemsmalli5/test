@@ -187,8 +187,6 @@ Features on movie runtime and top genres:
          looks well as it only have 54% accuracy. The classic decision trees has better accuracy score than traditional logistical regression models with 69.1% accuracy scores.
          
 
-![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/rf_5trees.png)
-
 ## 4th Segment Deliverable
 ### Logistic Regression Model
 Logistic Regression Classification Report:
@@ -209,9 +207,12 @@ Accuracy for classic decision tree is 70.56%, but lack of enough subtrees/nodes 
 ### Random Forest Trees
 
 Random Forest Trees Classification Report
+
 ![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/RandomForest%20Score.png)
 
 ![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/RandomForest%20Trees.png)
+
+![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/rf_5trees.png)
 
 Advantages: 
 Creates as many as trees on the subset of the data and combines the output of all the trees. 
@@ -244,8 +245,8 @@ After Supervised Machine learning model analysis, we use average rating score to
 
 ### Recommendations: 
 
-Keep runtime within 80-130 minutes, and 
-Recommend more Drama genres in Streaming platform
+1. Keep runtime within 80-130 minutes, <b/>
+2. Recommend more Drama genres in Streaming platform
 
 ## Final Project Presentation:
 
