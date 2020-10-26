@@ -1,8 +1,6 @@
 # Movie Ratings and Genres
 
-* Perform analysis on movie ratings and thier genres.
-* Communication Tools: Slack, Zoom Meetings
-* Collaboration: Google Drive/Colab, Github
+Perform analysis on movie genres and movie ratings in an attempt to predict popularity.
 
 ## Reason for Project
 
