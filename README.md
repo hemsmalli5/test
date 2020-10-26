@@ -49,19 +49,18 @@ Communications:
 
 Movie data pulled from: https://www.imdb.com/interfaces/
 
-Through this segment, we explored 4 data sets;
+Through this segment, we explored 4 data sets:
+
 1. Movie_akas: has information tconst, ordering, title, region, language, types, attributes, isOriginalTitle
 2. Movie_basics: tconst, titleType, primaryTitle, originalTitle, isAdult, startYear, endYear, runtimeMinutes, genres
 3. Movie_ratings: tconst, averageRating, numVotes
 4. Movie_crew: tconst, directors, writers
 
-The tconst being common imbd_id across all data sets that helped with merge, each data set has promising information for analysis. 
+The tconst value (imbd_id) is the common primary key across all data sets that we will be able to merge on. Each dataset has promising information for analysis. We will primarily focus on the title, start year (release year), runtime minutes, genres, average ratings, and number of votes columns.
 
 ERD from QuickDBD: https://app.quickdatabasediagrams.com/#/d/YUIU3s
 
 ![Summary](https://github.com/hemsmalli5/Final-Project---Week1/blob/master/ERD.PNG)
-
-Top picks for project are title, start year (release year), runtime minutes, genres, average ratings, number of votes, and directors.
 
 ## Data Analysis & Cleaning: 
 
