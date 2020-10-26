@@ -1,4 +1,10 @@
-# Movie Ratings and Genres
+# Customers Preference On Movie Genres on Streaming Platform
+
+## Business Requirement
+COVID situations and mandatory stay at home requirements exponentially put high demand on streaming platforms. Predicting the top customer preferred genre trends could be one of the good sources to provide user-based recommendations on streaming platforms. Through this project we plan to focus on following business predictions/questions:
+
+Predict Customer preferred movie genres based on average ratings
+Predict if movie runtime affects ratings 
 
 Perform analysis on movie genres and movie ratings in an attempt to predict popularity.
 
@@ -26,15 +32,24 @@ Steps:
     * Compare the statistics between the models and identify model with better accuracy
 5.  Predictions and Conclusions
 
-## Team & Communications:
+## Team, Tools & Communications:
 
-Team:
+### Team:
 * PM/DB - Hema Mallisetty 
 * ETL - Sam Erdman 
 * Dashboard - Aaron Kitamura 
 * ML - Angel Zhang 
 
-Communications:
+### Tools & Techniques
+Programming: Python Pandas
+DB: Postgresql 
+Visualization: Tableau
+Pre-Processing: Feature Engineering & Feature Selections 
+ML Analysis: Linear Regression model, Random forest model, Decision Trees
+Project Tracking: Slack, Zoom, Google Drive, Git-hub collaborations
+
+
+### Communications:
 1. Slack Channel
 2. Google docs & drive
 3. Git-hub collaborations
@@ -174,6 +189,39 @@ Features on movie runtime and top genres:
 ![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/dtree_8.png)
 ![](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Part2_ML/rf_5trees.png)
 
+## 4th Segment Deliverable
+### Logistic Regression Model
+
+Benefits: 
+Easy to implement, interpret, and very efficient to train.
+Less inclined to over-fitting but it can overfit in high dimensional datasets. Since we have 29 genres and it is high dimensional datasets, we choose to use logistic regression model. 
+Limitations: 
+Linearity assumption between the dependent variable and the independent variables. 
+Can only be used to predict discrete functions. Hence, the dependent variable of Logistic Regression is bound to the discrete number set.
+
+### Classic Decision Trees
+Accuracy for classic decision tree is 70.56%, but lack of enough subtrees/nodes to do the machine learning modeling.
+
+### Random Forest Trees
+
+Advantages: 
+Creates as many as trees on the subset of the data and combines the output of all the trees. 
+Reduces overfitting problem in decision trees and also reduces the variance, therefore improves the accuracy. 
+
+Disadvantages: 
+Complexity: Random Forest creates a lot of trees (unlike only one tree in case of decision tree) and combines their outputs. This algorithm requires much more computational power and resources.
+Longer Training Period: Random Forest require much more time to train as compared to decision trees as it generates a lot of trees (instead of one tree in case of decision tree) and makes decision on the majority of votes.
+
+
+### ML Conclusions:
+Classification Method: 
+For logistic regression model, we got 68.37% accuracy prediction rate, and we improved accuracy by classic decision tree by 70.56%. 
+The random forest tree model finally has reached the highest accuracy rates among three models by 72.30%. 
+
+Regression Method: 
+By linear regression model, we got 0.28 MSE error score, which is a good predictions over average rating scores. This way, we can use linear regression model to predict the average rating scores. 
+
+
 ## Tableau Storyboard
 
 https://public.tableau.com/views/BootcampFinalPresentation/MovieGenrePreferences?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
@@ -182,6 +230,13 @@ https://public.tableau.com/views/BootcampFinalPresentation/MovieGenrePreferences
 
 ![Example: Genres Slide](https://github.com/hemsmalli5/Final_Project-customers_preference_on_movies_genres/blob/master/Tableau_Dash/TopGenres_slide.PNG)
 
+## Project Conclusion
+After Supervised Machine learning model analysis, we use average rating score to predict genres preference and reached by 72.30% accuracy rate with random forest model, among which documentary genre has the highest feature importance and drama genre earns the highest customer preference among 29 different genres.  
+
+### Recommendations: 
+
+Keep runtime within 80-130 minutes, and 
+Recommend more Drama genres in Streaming platform
 
 ## Final Project Presentation:
 
